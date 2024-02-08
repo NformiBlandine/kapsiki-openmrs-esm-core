@@ -31,8 +31,8 @@ jobs:
       # Configure Git
 #      - name: Git configuration
  #       run: |
-  #        git config --global user.email "ndehblandine@gmail.com"
-   #       git config --global user.name "GitHub Actions"
+  #        git config  user.email "ndehblandine@gmail.com"
+   #       git config  user.name "NformiBlandine"
 
       # Bump package version
       # Use tag latest
