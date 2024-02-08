@@ -1,5 +1,5 @@
 {
-  "name": "@openmrs/esm-core",
+  "name": "@NformiBlandine/kapsiki-openmrs-esm-core",
   "version": "5.3.2",
   "private": true,
   "workspaces": [
@@ -10,9 +10,9 @@
   ],
   "scripts": {
     "run:omrs": "openmrs",
-    "run:shell": "turbo run watch --filter=@openmrs/esm-app-shell --parallel --no-cache",
-    "ci:publish-next": "yarn workspaces foreach --all --topological --exclude @openmrs/esm-core npm publish --access public --tag next",
-    "ci:publish": "yarn workspaces foreach --all --topological --exclude @openmrs/esm-core npm publish --access public --tag latest",
+    "run:shell": "turbo run watch --filter=@NformiBlandine/kapsiki-openmrs-esm-core-app-shell --parallel --no-cache",
+    "ci:publish-next": "yarn workspaces foreach --all --topological --exclude @NformiBlandine/kapsiki-openmrs-esm-core npm publish --access public --tag next",
+    "ci:publish": "yarn workspaces foreach --all --topological --exclude @NformiBlandine/kapsiki-openmrs-esm-core npm publish --access public --tag latest",
     "release": "yarn workspaces foreach --all --topological version",
     "build": "turbo run build",
     "build:apps": "turbo run build --filter='@openmrs/*-app'",
