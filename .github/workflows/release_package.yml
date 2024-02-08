@@ -32,7 +32,7 @@ jobs:
 #      - name: Git configuration
  #       run: |
   #        git config  user.email "ndehblandine@gmail.com"
-   #       git config  user.name "NformiBlandine"
+   #       git config  user.name "@NformiBlandine"
 
       # Bump package version
       # Use tag latest
